@@ -1,5 +1,6 @@
 import React from 'react'
+import { Button } from 'react-bootstrap';
 
 export default function Bar() {
-  return <div>And I am Bar!</div>
+  return <Button className='btn btn-primary'>And I am Bar!</Button>
 }
