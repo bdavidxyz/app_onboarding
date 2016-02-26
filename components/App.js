@@ -12,6 +12,8 @@ export default function App({ children }) {
         {' '}
         <Link to="/Obd1">Obd1</Link>
         {' '}
+        <Link to="/Obd2">Obd2</Link>
+        {' '}
         <Link to="/bar">Bar</Link>
       </header>
 

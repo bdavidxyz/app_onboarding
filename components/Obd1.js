@@ -1,4 +1,5 @@
 import React from 'react'
+import {browserHistory} from 'react-router'
 require("./obd1.less");
 
 
@@ -19,7 +20,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat.
             </p>
             <nav className="Obd1-nav">
-              <button className="Obd1-button-next">Suivant</button>
+              <button className="Obd1-button-next" onClick={() => browserHistory.push('/Obd2')}>Suivant</button>
             </nav>
         	
 
